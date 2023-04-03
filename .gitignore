@@ -1,0 +1,8 @@
+/node_modules
+
+followparisweb-firebase-adminsdk*
+learning-1ac89-firebase-adminsdk*
+
+.env*
+
+/uploads

@@ -1,0 +1,25 @@
+components:
+  securitySchemes:
+    # firebase:
+    #   authorizationUrl: ''
+    #   flow: 'implicit'
+    #   type: 'oauth2'
+    #   # Replace YOUR-PROJECT-ID with your project ID
+    #   x-google-issuer: 'https://securetoken.google.com/followparisweb-stag'
+    #   x-google-jwks_uri: 'https://www.googleapis.com/service_accounts/v1/metadata/x509/securetoken@system.gserviceaccount.com'
+    #   x-google-audiences: 'followparisweb-stag'
+    # BearerAuth:
+    #   type: http
+    #   scheme: bearer
+    ApiKeyBasicAuth: # arbitrary name for the security scheme
+      type: apiKey
+      in: header # can be "header", "query" or "cookie"
+      name: api_key # name of the header, query parameter or cookie
+    AccessTokenAuth:
+      type: apiKey
+      in: header
+      name: accesstoken
+    ApiKeyAdminAuth: # arbitrary name for the security scheme
+      type: apiKey
+      in: header # can be "header", "query" or "cookie"
+      name: admin_api_key # name of the header, query parameter or cookie
