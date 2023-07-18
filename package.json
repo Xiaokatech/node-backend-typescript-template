@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npx sequelize db:migrate && nodemon server.ts",
     "start_old": "npx sequelize db:migrate && node server.ts",
+    "start:no-database": "nodemon server.ts",
     "lint": "eslint . --ext .ts",
     "migration:generate": "npx sequelize migration:generate --name",
     "db:migrate": "npx sequelize db:migrate",
