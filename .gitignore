@@ -6,3 +6,6 @@ learning-1ac89-firebase-adminsdk*
 .env*
 
 /uploads
+
+# MacOS
+.DS_Store

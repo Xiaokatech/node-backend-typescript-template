@@ -15,7 +15,7 @@ import cors from 'cors';
 import swaggerJsDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 
-import indexRouter from './src/routes/index';
+import indexRouter from './src/endpoint/1_routes/index';
 
 import handleErrors from './src/middleware/hanldeErrors';
 

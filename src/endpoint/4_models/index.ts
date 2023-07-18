@@ -1,5 +1,5 @@
 import { ModelStatic, Sequelize } from 'sequelize';
-import { isProd } from '../../server';
+import { isProd } from '../../../server';
 
 
 
