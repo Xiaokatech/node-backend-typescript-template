@@ -1,12 +1,6 @@
 import { ModelStatic, Sequelize } from 'sequelize';
 import { isProd } from '../../../server';
 
-
-
-
-
-
-
 // const env = process.env.NODE_ENV || 'development';
 // // eslint-disable-next-line import/no-dynamic-require
 // const config = require(`${__dirname}/../config/config`)[env];
@@ -49,12 +43,10 @@ if (isProd) {
 export interface IDBModels {
   sequelize: Sequelize;
   Sequelize: typeof Sequelize;
-
 }
 const db: IDBModels = {
   sequelize,
   Sequelize,
-
 };
 
 // Object.keys(db).forEach((modelName: string) => {

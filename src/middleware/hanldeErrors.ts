@@ -1,4 +1,4 @@
-import { GeneralError } from '../utils/error';
+import { GeneralError } from '../tools/error';
 
 interface IErrorLogger {
   kind: any;

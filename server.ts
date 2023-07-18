@@ -59,7 +59,7 @@ const swaggerOptions = {
     },
     servers: [{ url: prefix }],
   },
-  apis: ['./src/routes/**/*.ts', './src/config/swagger.stg.yaml'], // files containing annotations as above
+  apis: ['./src/endpoint/1_routes/**/*.ts', './src/config/swagger.stg.yaml'], // files containing annotations as above
 };
 
 const app = express();

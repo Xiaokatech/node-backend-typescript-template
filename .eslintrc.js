@@ -38,14 +38,14 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/models/*.ts'],
+      files: ['src/endpoint/4_models/*.ts'],
       rules: {
         camelcase: 'off',
         // 'import/prefer-default-export': 'off',
       },
     },
     {
-      files: ['src/controllers/*.ts'],
+      files: ['src/endpoint/2_controllers/*.ts'],
       rules: {
         'consistent-return': 'off',
       },
@@ -53,9 +53,9 @@ module.exports = {
     {
       files: [
         'src/follow-paris-common/**/*.ts',
-        'src/services/**/*.ts',
-        'src/controllers/**/*.ts',
-        'src/utils/**/*.ts',
+        'src/endpoint/3_services/**/*.ts',
+        'src/endpoint/2_controllers/**/*.ts',
+        'src/tools/**/*.ts',
       ],
       rules: {
         camelcase: 'off',
